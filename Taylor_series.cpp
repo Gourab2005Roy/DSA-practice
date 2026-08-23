@@ -27,8 +27,24 @@ double taylor_series(int x, int n)
     return (sum + (p/f));
 }
 
+// Using loop..
+double taylor_series_loop(int x, int n)
+{
+    static double num = 1;
+    static double den = 1;
+    double sum_loop = 1;
+    for(std::size_t i = 1; i<=n; i++)
+    {
+        num *= x;
+        den *= i;
+        sum_loop = sum_loop + (num/den);
+    }
+    return sum_loop;
+}
+
 int main()
 {
-    std::cout<<taylor_series(2, 25);
+    std::cout<<taylor_series(2, 25)<<"\n";
+    std::cout<<taylor_series_loop(2, 25);
     return 0;
 }
