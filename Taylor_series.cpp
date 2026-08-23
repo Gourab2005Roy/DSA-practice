@@ -9,7 +9,7 @@
 
 #include<iostream>
 
-double taylor_series(int x, int n)
+double taylor_series(double x, double n)
 {
     // Reason for using 'static' varaible, cause, they gonna collect the value and remain the same throughout the whole process.
     static double p = 1;
@@ -28,7 +28,7 @@ double taylor_series(int x, int n)
 }
 
 // Using loop..
-double taylor_series_loop(int x, int n)
+double taylor_series_loop(double x, double n)
 {
     static double num = 1;
     static double den = 1;
