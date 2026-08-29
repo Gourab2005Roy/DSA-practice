@@ -1,13 +1,12 @@
-// Inserting an element in the array.
+// Adding an element in the array.
 
-// Inserting the element in the last position.
+// Adding the element in the last position.
 
 #include<iostream>
 
 int main()
 {
     int a[12] = {8, 3, 7, 12, 6, 9};
-    int index = 8;
     int key = 10;
     int length = 0;
 
