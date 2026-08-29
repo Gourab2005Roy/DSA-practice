@@ -1,10 +1,12 @@
 // Inserting an element in the array.
 
+// Inserting the element in the last position.
+
 #include<iostream>
 
 int main()
 {
-    int a[10] = {2, 8, 4, 5, 9, 0};
+    int a[12] = {8, 3, 7, 12, 6, 9};
     int index = 8;
     int key = 10;
     int length = 0;
@@ -16,7 +18,16 @@ int main()
             length++;
         }
     }
-    std::cout<<length;
+    std::cout<<length<<"\n";
+
+    a[length] = key;
+    length++;
+
+    for(std::size_t i = 0; i<length; i++)
+    {
+        std::cout<<a[i]<<" ";
+    }
+    std::cout<<"\n";
 
     return 0;
 }
