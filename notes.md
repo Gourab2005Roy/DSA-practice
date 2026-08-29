@@ -1,2 +1,3 @@
 "# Day 1: Recursion, Static and Global variable influence in recursion, Tree recursion, Head recursion, Tail recursion, Nested recursion, Indirect recursion, sum of first 'n' natural number, factorial, combination and permutation, Taylor series, Horner's Rule - Taylor series, Fibonacci series, Fibonacci series using Memoization, Tower of Hanoi."
 "# Day 2: Array representation, static vs dynamic array, increase array size in heap, 2d array, arrays in compiler, row major and column major formula for 2d array, row major mapping, column major mapping, formulas for 'Nd' array, and formulas for 3d array."
+"# Day 3: Inserting an element in an array - half done."
