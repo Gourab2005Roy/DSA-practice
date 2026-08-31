@@ -1,4 +1,4 @@
-// Checking whether an array is sorted or not?
+// Checking whether an array is sorted in ascending order or not?
 
 #include<iostream>
 
