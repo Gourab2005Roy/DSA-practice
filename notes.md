@@ -2,3 +2,4 @@
 "# Day 2: Array representation, static vs dynamic array, increase array size in heap, 2d array, arrays in compiler, row major and column major formula for 2d array, row major mapping, column major mapping, formulas for 'Nd' array, and formulas for 3d array."
 "# Day 3: Adding an element in an array - half done."
 "# Day 4: Adding an element in an array in the last position, Inserting an element in the array, Deleting an element from the array, Linear search, Transposition linear search, Move to front linear search, Binary search."
+"# Day 5: Checked whether the array is sorted in ascending or desceding order."
