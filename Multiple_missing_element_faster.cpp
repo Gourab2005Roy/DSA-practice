@@ -26,7 +26,7 @@ int main()
     std::cout<<"low: "<<max<<" and high: "<<min<<"\n";
 
     // Finding the missing elements.
-    int H[high] = {0}; // This is known as HASH TABLE / BIT SET.
+    int H[(high + 1)] = {0}; // This is known as HASH TABLE / BIT SET.
     for(int i = 0; i<size; i++)
     {
         H[a[i]]++;
