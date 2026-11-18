@@ -1,5 +1,6 @@
 // Here, we are going to find out multiple missing elements.
 // We will use the logic of difference.
+// In case of a decreasing sorted array, we will only change the logic and nothing else.
 
 #include<iostream>
 
