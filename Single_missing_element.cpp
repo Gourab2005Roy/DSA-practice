@@ -2,23 +2,23 @@
 
 int main()
 {
-    // // Array in order, starting from 1.
-    // int a[] = {1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12};
-    // int size = (sizeof(a)/sizeof(int));
-    // int last_value = a[size - 1];
-    // // Here, we gonna compare the summation of each and every value with the arithmetic way of finding sum of all numbers.
-    // int sum = 0;
-    // for(int i = 0; i<size; i++)
-    // {
-    //     sum = sum+a[i];
-    // }
-    // int total_sum = ((last_value * (last_value+1))/2);
-    // int missing_value = (total_sum - sum);
+    // Array in order, starting from 1.
+    int a[] = {1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12};
+    int size = (sizeof(a)/sizeof(int));
+    int last_value = a[size - 1];
+    // Here, we gonna compare the summation of each and every value with the arithmetic way of finding sum of all numbers.
+    int sum = 0;
+    for(int i = 0; i<size; i++)
+    {
+        sum = sum+a[i];
+    }
+    int total_sum = ((last_value * (last_value+1))/2);
+    int missing_value = (total_sum - sum);
     
-    // std::cout<<size<<"\n";
-    // std::cout<<total_sum<<"\n";
-    // std::cout<<sum<<"\n";
-    // std::cout<<"The missing value is "<<missing_value;
+    std::cout<<size<<"\n";
+    std::cout<<total_sum<<"\n";
+    std::cout<<sum<<"\n";
+    std::cout<<"The missing value is "<<missing_value;
 
 
 
