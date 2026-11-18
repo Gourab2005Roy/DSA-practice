@@ -26,12 +26,12 @@ int main()
     int arr[] = {6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17};
     // Here, we need to know the low, high, and the total number of elemens present.
     // Then, we need to perform the subtraction between the values and the index individually.
-    int size = sizeof(arr)/sizeof(int);
+    int size_1 = sizeof(arr)/sizeof(int);
     int low = arr[0];
-    int high = arr[size - 1];
+    int high = arr[size_1 - 1];
     int diff = (low - 0);
 
-    for(int i = 0; i<size; i++)
+    for(int i = 0; i<size_1; i++)
     {
         if(arr[i] - i != diff)
         {
